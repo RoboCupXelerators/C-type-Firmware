@@ -1,0 +1,192 @@
+{
+  "source": "software_reference_model",
+  "hardware_measurement": "not_measured",
+  "profile": "normal",
+  "control_period_ms": 10.0,
+  "limits": {
+    "name": "normal",
+    "normal_accel": 16.7,
+    "normal_decel": 25.0,
+    "reverse_brake": 40.0,
+    "normal_jerk": 66.7,
+    "reverse_jerk": 240.0,
+    "zero_speed_epsilon": 0.2,
+    "reverse_detection_epsilon": 0.5,
+    "velocity_deadband": 0.05
+  },
+  "phases": [
+    {
+      "phase": "zero_to_pos25",
+      "reversal": false,
+      "command_to_output_change_cycles": null,
+      "artificial_zero_wait_cycles": 0,
+      "continuous_output": true,
+      "final_targets_rad_s": [
+        -12.266530218184794,
+        12.266530218184794,
+        -14.618681456187165,
+        14.618681456187165
+      ],
+      "requested_targets_rad_s": [
+        -12.266530218184794,
+        12.266530218184794,
+        -14.618681456187165,
+        14.618681456187165
+      ]
+    },
+    {
+      "phase": "pos25_to_neg25",
+      "reversal": true,
+      "command_to_output_change_cycles": 0,
+      "artificial_zero_wait_cycles": 0,
+      "continuous_output": true,
+      "final_targets_rad_s": [
+        12.266530218184794,
+        -12.266530218184794,
+        14.618681456187165,
+        -14.618681456187165
+      ],
+      "requested_targets_rad_s": [
+        12.266530218184794,
+        -12.266530218184794,
+        14.618681456187165,
+        -14.618681456187165
+      ]
+    },
+    {
+      "phase": "neg25_to_pos25",
+      "reversal": true,
+      "command_to_output_change_cycles": 0,
+      "artificial_zero_wait_cycles": 0,
+      "continuous_output": true,
+      "final_targets_rad_s": [
+        -12.266530218184794,
+        12.266530218184794,
+        -14.618681456187165,
+        14.618681456187165
+      ],
+      "requested_targets_rad_s": [
+        -12.266530218184794,
+        12.266530218184794,
+        -14.618681456187165,
+        14.618681456187165
+      ]
+    },
+    {
+      "phase": "pos50",
+      "reversal": false,
+      "command_to_output_change_cycles": null,
+      "artificial_zero_wait_cycles": 0,
+      "continuous_output": true,
+      "final_targets_rad_s": [
+        -24.53306043636959,
+        24.53306043636959,
+        -29.23736291237433,
+        29.23736291237433
+      ],
+      "requested_targets_rad_s": [
+        -24.53306043636959,
+        24.53306043636959,
+        -29.23736291237433,
+        29.23736291237433
+      ]
+    },
+    {
+      "phase": "pos50_to_neg50",
+      "reversal": true,
+      "command_to_output_change_cycles": 0,
+      "artificial_zero_wait_cycles": 0,
+      "continuous_output": true,
+      "final_targets_rad_s": [
+        24.53306043636959,
+        -24.53306043636959,
+        29.23736291237433,
+        -29.23736291237433
+      ],
+      "requested_targets_rad_s": [
+        24.53306043636959,
+        -24.53306043636959,
+        29.23736291237433,
+        -29.23736291237433
+      ]
+    },
+    {
+      "phase": "pos100",
+      "reversal": true,
+      "command_to_output_change_cycles": 0,
+      "artificial_zero_wait_cycles": 0,
+      "continuous_output": true,
+      "final_targets_rad_s": [
+        -49.06612087273918,
+        49.06612087273918,
+        -53.06663708762598,
+        53.06663708762598
+      ],
+      "requested_targets_rad_s": [
+        -49.06612087273918,
+        49.06612087273918,
+        -58.47472582474866,
+        58.47472582474866
+      ]
+    },
+    {
+      "phase": "pos100_to_neg100",
+      "reversal": true,
+      "command_to_output_change_cycles": 0,
+      "artificial_zero_wait_cycles": 0,
+      "continuous_output": true,
+      "final_targets_rad_s": [
+        44.88787912726098,
+        -44.88787912726098,
+        43.21736291237415,
+        -43.21736291237415
+      ],
+      "requested_targets_rad_s": [
+        49.06612087273918,
+        -49.06612087273918,
+        58.47472582474866,
+        -58.47472582474866
+      ]
+    },
+    {
+      "phase": "pos100_to_zero",
+      "reversal": false,
+      "command_to_output_change_cycles": null,
+      "artificial_zero_wait_cycles": 0,
+      "continuous_output": true,
+      "final_targets_rad_s": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "requested_targets_rad_s": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "phase": "zero_to_neg100",
+      "reversal": false,
+      "command_to_output_change_cycles": null,
+      "artificial_zero_wait_cycles": 0,
+      "continuous_output": true,
+      "final_targets_rad_s": [
+        49.06612087273918,
+        -49.06612087273918,
+        58.47472582474866,
+        -58.47472582474866
+      ],
+      "requested_targets_rad_s": [
+        49.06612087273918,
+        -49.06612087273918,
+        58.47472582474866,
+        -58.47472582474866
+      ]
+    }
+  ],
+  "all_reversals_change_next_cycle": true,
+  "no_artificial_zero_wait": true
+}

@@ -1,0 +1,149 @@
+2026-07-14T11:12:00+08:00
+arm-none-eabi-gcc (15:13.2.rel1-2) 13.2.1 20231009
+cmake version 3.28.3
+=== Xelerator T2 C Board Firmware Build ===
+
+-- The C compiler identification is GNU 13.2.1
+-- The CXX compiler identification is GNU 13.2.1
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/arm-none-eabi-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/build
+[  1%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/main.c.obj
+[  3%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/can.c.obj
+[  5%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/gpio.c.obj
+[  6%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/adc.c.obj
+[  8%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/spi.c.obj
+[ 10%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/tim.c.obj
+[ 12%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/dma.c.obj
+[ 13%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/crc.c.obj
+[ 15%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/rtc.c.obj
+[ 17%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+[ 18%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/stm32f4xx_it.c.obj
+[ 20%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/system_stm32f4xx.c.obj
+[ 22%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/usb_device.c.obj
+[ 24%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/usb_otg.c.obj
+[ 25%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/usbd_cdc_if.c.obj
+[ 27%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/usbd_conf.c.obj
+[ 29%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/usbd_desc.c.obj
+[ 31%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/bsp_can.c.obj
+[ 32%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/dm2325_can.c.obj
+[ 34%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/motor_safety.c.obj
+[ 36%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/pi_c_protocol.c.obj
+[ 37%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/main_loop.c.obj
+[ 39%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/cboard_diag.c.obj
+[ 41%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/dm_can_discovery.c.obj
+[ 43%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/chassis_kinematics.c.obj
+[ 44%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/chassis_controller.c.obj
+[ 46%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/chassis_runtime.c.obj
+[ 48%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/bmi088_driver.c.obj
+[ 50%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/cboard_imu_math.c.obj
+[ 51%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Core/Src/cboard_imu.c.obj
+[ 53%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+[ 55%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c: In function 'USBD_CtlError':
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:783:51: warning: unused parameter 'req' [-Wunused-parameter]
+  783 |                             USBD_SetupReqTypedef *req)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~^~~
+[ 56%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+[ 58%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c: In function 'USBD_CDC_Init':
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:471:66: warning: unused parameter 'cfgidx' [-Wunused-parameter]
+  471 | static uint8_t  USBD_CDC_Init (USBD_HandleTypeDef *pdev, uint8_t cfgidx)
+      |                                                          ~~~~~~~~^~~~~~
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c: In function 'USBD_CDC_DeInit':
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:549:68: warning: unused parameter 'cfgidx' [-Wunused-parameter]
+  549 | static uint8_t  USBD_CDC_DeInit (USBD_HandleTypeDef *pdev, uint8_t cfgidx)
+      |                                                            ~~~~~~~~^~~~~~
+[ 60%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+[ 62%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+[ 63%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+[ 65%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+[ 67%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+[ 68%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+[ 70%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+[ 72%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
+[ 74%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c: In function 'HAL_PWR_EnterSLEEPMode':
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:365:38: warning: unused parameter 'Regulator' [-Wunused-parameter]
+  365 | void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry)
+      |                             ~~~~~~~~~^~~~~~~~~
+[ 75%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+[ 77%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+[ 79%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'FLASH_MassErase':
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:953:60: warning: unused parameter 'Banks' [-Wunused-parameter]
+  953 | static void FLASH_MassErase(uint8_t VoltageRange, uint32_t Banks)
+      |                                                   ~~~~~~~~~^~~~~
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'FLASH_OB_EnableWRP':
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1032:74: warning: unused parameter 'Banks' [-Wunused-parameter]
+ 1032 | static HAL_StatusTypeDef FLASH_OB_EnableWRP(uint32_t WRPSector, uint32_t Banks)
+      |                                                                 ~~~~~~~~~^~~~~
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'FLASH_OB_DisableWRP':
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1068:75: warning: unused parameter 'Banks' [-Wunused-parameter]
+ 1068 | static HAL_StatusTypeDef FLASH_OB_DisableWRP(uint32_t WRPSector, uint32_t Banks)
+      |                                                                  ~~~~~~~~~^~~~~
+[ 81%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+[ 82%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c: In function 'HAL_EXTI_GetPending':
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:374:66: warning: unused parameter 'Edge' [-Wunused-parameter]
+  374 | uint32_t HAL_EXTI_GetPending(EXTI_HandleTypeDef *hexti, uint32_t Edge)
+      |                                                         ~~~~~~~~~^~~~
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c: In function 'HAL_EXTI_ClearPending':
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:401:64: warning: unused parameter 'Edge' [-Wunused-parameter]
+  401 | void HAL_EXTI_ClearPending(EXTI_HandleTypeDef *hexti, uint32_t Edge)
+      |                                                       ~~~~~~~~~^~~~
+[ 84%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+[ 86%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c: In function 'HAL_ADCEx_MultiModeGetValue':
+/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c:763:57: warning: unused parameter 'hadc' [-Wunused-parameter]
+  763 | uint32_t HAL_ADCEx_MultiModeGetValue(ADC_HandleTypeDef* hadc)
+      |                                      ~~~~~~~~~~~~~~~~~~~^~~~
+[ 87%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+[ 89%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+[ 91%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+[ 93%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+[ 94%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
+[ 96%] Building C object CMakeFiles/xelerator_t2_c_board.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+[ 98%] Building ASM object CMakeFiles/xelerator_t2_c_board.dir/Startup/startup_stm32f407xx.s.obj
+[100%] Linking C executable xelerator_t2_c_board.elf
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o): in function `_close_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build_nano/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/closer.c:47:(.text+0xc): warning: _close is not implemented and will always fail
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o): note: the message above does not take linker garbage collection into account
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o): in function `_lseek_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build_nano/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/lseekr.c:49:(.text+0x14): warning: _lseek is not implemented and will always fail
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o): note: the message above does not take linker garbage collection into account
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o): in function `_read_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build_nano/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/readr.c:49:(.text+0x14): warning: _read is not implemented and will always fail
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o): note: the message above does not take linker garbage collection into account
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o): in function `_write_r':
+/build/newlib-38V0JC/newlib-4.4.0.20231231/build_nano/arm-none-eabi/thumb/v7e-m+fp/hard/newlib/../../../../../../newlib/libc/reent/writer.c:49:(.text+0x14): warning: _write is not implemented and will always fail
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o): note: the message above does not take linker garbage collection into account
+Generating BIN, HEX, and printing size
+   text	   data	    bss	    dec	    hex	filename
+  56664	    472	  19840	  76976	  12cb0	/home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2/build/xelerator_t2_c_board.elf
+[100%] Built target xelerator_t2_c_board
+
+=== Build artifacts ===
+-rwxrwxr-x 1 philia philia  57180 Jul 14 11:12 xelerator_t2_c_board.bin
+-rwxrwxr-x 1 philia philia 184332 Jul 14 11:12 xelerator_t2_c_board.elf
+-rw-rw-r-- 1 philia philia 160798 Jul 14 11:12 xelerator_t2_c_board.hex
+-rw-rw-r-- 1 philia philia 320618 Jul 14 11:12 xelerator_t2_c_board.map
+
+=== SHA256 ===
+bd78cfc2ad2c822b653ce181f3f1b74199e60271dc53c35ddca4a70bfa39c6e0  xelerator_t2_c_board.elf
+6ae0a090eb2d720b7a2fc8ee835b2acd701ef8fe8a70d061f4962e35262ac85f  xelerator_t2_c_board.bin
+3b92ef74d1ce4fac56242b3e03aadc13104e98e8a15098d33b4078d60dee1326  xelerator_t2_c_board.hex
+MAP_SHA256
+8e08e1afddd1ee3f9ced2d44466a6abeca5a3a730bc7cc434b9adac459243741  build/xelerator_t2_c_board.map

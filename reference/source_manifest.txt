@@ -1,0 +1,64 @@
+# Source Manifest — DM-S2325-1EC + RoboMaster C Board Reference Materials
+
+# === Damiao Official Gitee ===
+damiao-official
+  source: https://gitee.com/kit-miao/damiao.git
+  commit: b2fd3c2c1bb302f605746a13bbc69a225c4043ac
+  date: 2026-07-11 (cloned)
+  trust: highest (official)
+
+# DM-S2325-1EC V1.1 Manual
+DM-S2325-1EC separable motor User Manual V1.1.pdf
+  path: 电机产品/分立系列/DM-S2325-1EC/说明书/
+  version: V1.1
+  date: 2026-05-13
+  sha256: (file is 10MB PDF, not hashed)
+  trust: highest
+
+# DM-S2325-1EC V1.0 Manual (Chinese)
+DM-S2325-1EC减速电机（含DM3520-1EC驱动器）使用说明书V1.0 9.16.pdf
+  path: 电机产品/分立系列/DM-S2325-1EC/说明书/
+  version: V1.0
+  date: 2025-09-15
+  trust: high
+
+# Damiao Python SDK (u2can)
+DM_CAN.py
+  path: SDK/电机SDK/Python例程/u2can/DM_CAN.py
+  trust: highest (official SDK code)
+  used: confirmed VEL mode CAN ID = 0x200 + SlaveID, 4-byte float32 LE
+
+# Damiao STM32F4 Example (matches C board MCU)
+dm_motor_drv.c / dm_motor_drv.h
+  path: SDK/电机控制例程/stm32例程/dm_ctrl(f4) v1.1 裸机/User/
+  trust: highest (official embedded example)
+  used: confirmed spd_ctrl() sends 4 bytes, enable/disable 8 bytes
+
+# === RoboMaster C Board Official Examples ===
+robomaster-c-official
+  source: https://github.com/RoboMaster/Development-Board-C-Examples.git
+  commit: 59d12b1adcd321dbf1f9e9166aef5eb95ab657bf
+  date: 2026-07-11 (cloned)
+  trust: high (official DJI examples)
+
+# C Board CAN Example
+14.CAN/
+  path: reference/vendor/robomaster-c-official/14.CAN/
+  trust: high
+  used: C board CAN init, filter, send/receive reference
+
+# C Board USART Example
+8.USART_receive_and_send/
+  trust: high
+  used: reference for serial communication
+
+# === Third Party (auxiliary only) ===
+cmjang/DM_Control_Python
+  source: https://github.com/cmjang/DM_Control_Python
+  trust: medium (third party, 72 stars)
+  used: auxiliary understanding only, not overriding official
+
+0mrrabbit0/dm-motor-python
+  source: https://github.com/0mrrabbit0/dm-motor-python
+  trust: medium (third party, uses official SDK)
+  used: auxiliary understanding of CAN-FD and feedback decode

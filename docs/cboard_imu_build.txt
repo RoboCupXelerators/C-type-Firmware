@@ -1,0 +1,13 @@
+C-board IMU yaw-windup clean build
+Date: 2026-07-13
+Source: /home/philia/C-type-Firmware/firmware/robomaster_c_xelerator_t2
+Build directory: build-migration-clean
+Configuration: Release, arm-none-eabi-gcc 13.2.1, CMake --fresh after clean target
+Result: SUCCESS
+Size: text=56736 data=472 bss=19840 total=77048
+ELF SHA256: fb00c3d85da665e503185a5361634433aece728dc9c0ca6dddd4d0447673e3e2
+BIN SHA256: bb8f2ba4c613a202088d54d7a8c9cda0e17de0ef01458d4b2af8a96ab3c5ac85
+HEX SHA256: 79c815772fc4c7a62f9fcce2abcc8776b9f1125add0906765adafaeb6029ce31
+MAP SHA256: 3569aa1824b3fb9bc15b35ec538cc673d27806702ec982fd4353e3e028d33163
+Firmware tests: 6/6 passed
+Flash/verify: OpenOCD Programming Finished, Verified OK, reset successful

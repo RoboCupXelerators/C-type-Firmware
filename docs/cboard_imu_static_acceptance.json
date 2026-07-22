@@ -1,0 +1,139 @@
+{
+  "accel_mps2": {
+    "x": {
+      "mean": 0.10166959706452447,
+      "std": 0.03154609468418765
+    },
+    "y": {
+      "mean": -0.08473327483683508,
+      "std": 0.02920221106688883
+    },
+    "z": {
+      "mean": 9.836539774599123,
+      "std": 0.03809051435547363
+    }
+  },
+  "accel_norm_mps2": {
+    "mean": 9.83752389523513,
+    "std": 0.0381260447088666
+  },
+  "age_us": {
+    "max": 2022,
+    "mean": 668.5041936713686
+  },
+  "axis_mapping_hardware_verified": false,
+  "captured_samples": 5246,
+  "cboard_elapsed_s": 119.999497,
+  "cboard_samples_advanced": 97014,
+  "checks": {
+    "acceleration_near_gravity": true,
+    "chip_ids_valid": true,
+    "duration_at_least_requested": true,
+    "fresh_samples": true,
+    "gyro_noise_reasonable": true,
+    "gyro_static": true,
+    "no_missed_samples": true,
+    "no_nonfinite_values": true,
+    "no_spi_errors": true,
+    "no_usb_parse_errors": true,
+    "no_usb_timeouts": true,
+    "only_axis_mapping_pending": true,
+    "ready_and_calibrated": true,
+    "roll_pitch_without_jump": true,
+    "sequences_advanced": true,
+    "temperature_below_overtemp": true,
+    "timestamps_monotonic": true,
+    "yaw_continuous_without_jump": true,
+    "yaw_drift_reasonable": true
+  },
+  "gyro_bias_rad_s": {
+    "x": 0.0009033450041897595,
+    "y": 0.0004079961800016463,
+    "z": -0.0035068539436906576
+  },
+  "gyro_rad_s": {
+    "x": {
+      "mean": 0.0004295554583529355,
+      "std": 0.0037309011742121157
+    },
+    "y": {
+      "mean": -0.0002477800807571397,
+      "std": 0.004509240226437633
+    },
+    "z": {
+      "mean": -0.00045103187870917385,
+      "std": 0.004320998868664326
+    }
+  },
+  "health_flags_seen": [
+    16384
+  ],
+  "host_elapsed_s": 120.0000607840193,
+  "imu_update_rate_hz": 808.4533887671212,
+  "mag": {
+    "x": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "y": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "z": {
+      "mean": 0.0,
+      "std": 0.0
+    }
+  },
+  "mag_norm": {
+    "mean": 0.0,
+    "std": 0.0
+  },
+  "missed_sample_count_start_end": [
+    0,
+    0
+  ],
+  "pi_receive_loss_rate": 0.0,
+  "pi_receive_timeouts": 0,
+  "pi_telemetry_rate_hz": 43.70831119360974,
+  "pitch_deg": {
+    "mean": -0.5982939157781112,
+    "std": 0.012722081072383791
+  },
+  "pitch_max_step_deg": 0.026712282874537974,
+  "requested_duration_s": 120.0,
+  "result": "PASS_STATIC_AXIS_MAPPING_PENDING",
+  "roll_deg": {
+    "mean": -0.48087130610465023,
+    "std": 0.009426846636355412
+  },
+  "roll_max_step_deg": 0.054817017205259666,
+  "spi_error_count_start_end": [
+    0,
+    0
+  ],
+  "temperature_c": {
+    "end": 31.25,
+    "max": 31.375,
+    "start": 31.375
+  },
+  "usb_transport": {
+    "complete_frames": 5246,
+    "malformed_frames": 0,
+    "parser_buffer_length": 0,
+    "partial_reads": 0,
+    "pending_frames": 0,
+    "serial_rx_bytes": 865590,
+    "serial_tx_bytes": 47214
+  },
+  "valid_sample_interval_us": {
+    "firmware_max": 2094,
+    "firmware_min": 1000,
+    "max": 1284.388888888889,
+    "p50": 1223.8333333333333,
+    "p95": 1279.5555555555557,
+    "p99": 1279.8333333333333
+  },
+  "yaw_drift_deg": -3.2078939663448685,
+  "yaw_drift_rate_deg_min": -1.6039537064117202,
+  "yaw_max_step_deg": 0.00555977398439038
+}

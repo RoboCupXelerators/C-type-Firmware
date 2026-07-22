@@ -1,0 +1,21 @@
+/* Generated from ~/Software/config/chassis_geometry.json.
+ * motor_sign is electrical polarity relative to each wheel's drive vector.
+ * The 80/100 geometry already encodes left/right rolling direction.
+ * vx=+0.03 m/s was physically verified as forward on 2026-07-14. */
+#ifndef CHASSIS_MOTOR_CONFIG_GENERATED_H
+#define CHASSIS_MOTOR_CONFIG_GENERATED_H
+
+#include <stdint.h>
+
+#define CHASSIS_CONFIG_WHEEL_COUNT 4U
+static const uint16_t CHASSIS_ESC_IDS[CHASSIS_CONFIG_WHEEL_COUNT] = {0x01U, 0x02U, 0x03U, 0x04U};
+static const uint16_t CHASSIS_MASTER_IDS[CHASSIS_CONFIG_WHEEL_COUNT] = {0x11U, 0x12U, 0x13U, 0x14U};
+static const float CHASSIS_WHEEL_X_M[CHASSIS_CONFIG_WHEEL_COUNT] = {0.046345000f, 0.046345000f, -0.038889000f, -0.038889000f};
+static const float CHASSIS_WHEEL_Y_M[CHASSIS_CONFIG_WHEEL_COUNT] = {0.038889000f, -0.038889000f, 0.046345000f, -0.046345000f};
+static const float CHASSIS_DRIVE_ANGLE_RAD[CHASSIS_CONFIG_WHEEL_COUNT] = {2.268928028f, 0.872664626f, 3.839724354f, -0.698131701f};
+static const float CHASSIS_WHEEL_RADIUS_M[CHASSIS_CONFIG_WHEEL_COUNT] = {0.030000000f, 0.030000000f, 0.030000000f, 0.030000000f};
+static const float CHASSIS_GEAR_RATIO[CHASSIS_CONFIG_WHEEL_COUNT] = {1.000000000f, 1.000000000f, 1.000000000f, 1.000000000f};
+static const float CHASSIS_MOTOR_SIGN[CHASSIS_CONFIG_WHEEL_COUNT] = {1.000000000f, 1.000000000f, 1.000000000f, 1.000000000f};
+#define CHASSIS_NONZERO_HARDWARE_ALLOWED 1
+
+#endif

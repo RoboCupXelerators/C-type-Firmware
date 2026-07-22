@@ -1,0 +1,78 @@
+# CMake and build directories
+build*/
+cmake-build-*/
+out*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+compile_commands.json
+build.ninja
+rules.ninja
+
+# macOS metadata and local Python caches
+._*
+__pycache__/
+*.py[cod]
+.ninja_deps
+.ninja_log
+Testing/
+
+# Compiler and linker outputs
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.elf
+*.axf
+*.out
+*.map
+*.lst
+*.su
+
+# Generated firmware images
+*.bin
+*.hex
+*.dfu
+*.uf2
+!releases/**/*.bin
+!releases/**/*.hex
+!releases/**/*.dfu
+!releases/**/*.uf2
+
+# Packet captures are local diagnostics, not firmware source
+*.pcap
+
+# Test and coverage output
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.coverage
+.coverage.*
+htmlcov/
+*.gcda
+*.gcno
+*.gcov
+
+# Editor and local user state
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+*.bak
+CMakeUserPresets.json
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Local audit archive and vendor manuals
+docs/history/
+reference/dm2325_official/

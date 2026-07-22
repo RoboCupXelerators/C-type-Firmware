@@ -1,0 +1,14 @@
+C-board IMU yaw-windup flash
+Date: 2026-07-13
+Tool: OpenOCD 0.12.0, ST-LINK/V2, SWD
+Image: build-migration-clean/xelerator_t2_c_board.elf
+ELF SHA256: fb00c3d85da665e503185a5361634433aece728dc9c0ca6dddd4d0447673e3e2
+Programming Finished: YES
+Verify Started: YES
+Verified OK: YES
+Target reset: YES
+/dev/ttyACM0 recovered: YES
+Post-flash IMU: READY, calibrated, IDs 0x1E/0x0F, SPI errors 0, missed samples 0
+Post-flash passive chassis snapshot: runtime_state=Disabled, online_mask=0x00, enabled_mask=0, fault_mask=0, CAN ESR=0
+CAN refresh sent: NO
+Enable or nonzero target sent: NO
